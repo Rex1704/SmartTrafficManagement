@@ -1,0 +1,15 @@
+# System files
+__pycache__/
+*.pyc
+.idea/
+.ipynb_checkpoints/
+~$*
+
+# Large Asset Files
+videos/
+Images/
+# Data/ # Data is needed for YOLO, keeping it unless too large. YOLOv8n.pt is small. coco.names is small.
+Data/
+legacy/
+# Generated outputs
+output/
