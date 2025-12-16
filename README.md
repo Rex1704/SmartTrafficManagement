@@ -7,7 +7,10 @@ This project simulates an intelligent traffic intersection where green signal ti
 
 ## System Workflow
 
-![Smart Traffic Management Process](docs/process_flow.png)
+![Smart Traffic Management Process](docs/readmeImages/yolodetection.png)
+YOLOv8 Vehicle Detection with SORT tracking.
+![Smart Traffic Management Process](docs/readmeImages/simulation.png)
+Simulation using pygame.
 
 
 ## Features
