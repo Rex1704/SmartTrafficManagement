@@ -5,6 +5,11 @@ A dynamic traffic simulation system that optimizes signal timing based on real-t
 ## Overview
 This project simulates an intelligent traffic intersection where green signal timers are adjusted adaptively. It uses computer vision (YOLOv8) to detect vehicles from video feeds of traffic lanes and calculates the optimal green light duration for each lane, reducing congestion compared to fixed-timer systems.
 
+## System Workflow
+
+![Smart Traffic Management Process](docs/process_flow.png)
+
+
 ## Features
 - **Real-time Vehicle Detection**: Utilizes YOLOv8n to identify cars, bikes, buses, trucks, and rickshaws.
 - **Adaptive Signal Timing**: Calculates green light duration based on vehicle count and type (e.g., buses need more time than bikes).
